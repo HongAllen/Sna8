@@ -1,0 +1,69 @@
+/*body{ background-color: #F6F1DE;}
+.navbar{ background-color: #C8CD3B;}*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,300);
+
+
+/* Global
+------------------------------------------------------------*/
+body{ background-color: #dddddd;  padding-top: 50px; }
+.playNone{ visibility: hidden;}
+hr.max{ margin: 2em 0;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-family: 'Raleway', sans-serif; }
+.page-header{padding-bottom:0px;}
+.page-header h1{border-bottom: 1px solid #bbb; padding-bottom: 9px; margin-bottom: 0px;}
+
+
+.bInfo{ background-color: white; padding: 1.5em 0; padding-bottom: 2em;}
+.bInfo ul{ margin: 0px; padding: 0px;}
+.bInfo a{ display: block; padding: .25em 0; color:#ddd;}
+.bInfo a:hover{ color:#333;}
+
+/* Buttons
+------------------------------------------------------------*/
+.pBtn{ border-radius: 50px;  width: 50px; height: 50px; font-size: 25px; line-height: 39px; vertical-align: middle;;}
+.listItem .pBtn{ margin: 0px auto; margin-top:-26px;}
+
+/* Sliders
+------------------------------------------------------------*/
+.carousel-caption h3, .carousel-caption p{font-family: 'Raleway', sans-serif;font-weight: 300;}
+.carousel-example-captions .item > img { width: 100%; }
+.carousel-example-captions .item {background-size:cover; min-height: 600px;}
+.carousel-caption{ text-align: left; font-size: 200%;}
+.carousel-caption h3{ font-size: 300%;}
+.pagedown{ border-radius: 100px;/* border: 3px solid white; */padding: 0.5em 0.4em 0.3em; background-color: rgba(0,0,0,.5); box-shadow: 0 1px 2px rgba(0, 0, 0, .6);}
+
+/* index
+------------------------------------------------------------*/
+#index .introduction{ margin: 2em 0; display:block;}
+
+/* List items
+------------------------------------------------------------*/
+.listItem{ position: relative; margin-bottom: 2em;}
+.listItem .mini{ height: 0px; display: block;}
+.listItem  img{ width: 100%;}
+.listItem .con{ padding: 1.25em; padding-top:30px; text-align: center; background: white; }
+.listItem .con > p{ color:#666;}
+
+
+
+/* saleItem
+------------------------------------------------------------*/
+.sale{ background-color: white; padding: 15px 0px;  }
+.sale .item{text-align: center; margin-bottom: 20px;}
+.sale .item  img{ width: 100%; }
+.sale a{ display: block; text-decoration: none;}
+.sale span{ display: block;}
+.sale span.price{color:#b00;}
+
+
+/* facebook comments
+*/
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+  min-width: 100% !important;
+  width: 100% !important;
+}
+
