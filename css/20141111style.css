@@ -64,7 +64,12 @@ hr.middle {
 }
 .workItem {
     background-color: white;
-    margin-bottom: 2em;
+border-radius: 0 0 8px 8px;
+background-size: cover;
+background-position: 50% 30%;
+background-image: url();
+margin-bottom:2em;
+	
 }
 .workItem > .wi-t > img {
     width: 100%;
@@ -88,3 +93,13 @@ ul.bar > li > a {
     display: inline-block;
     padding: 0.5em 2em;
 }
+.bg-design{
+background-color: #e9595f;
+position: relative;
+min-height: 30px;
+border-radius: 8px 8px 0 0;
+background-size: cover;
+background-position: 50% 30%;
+background-image: url();
+}
+
