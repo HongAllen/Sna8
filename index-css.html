@@ -219,9 +219,10 @@
                         <!-- work list -->
              
                         <div class="col-md-4">
-                            <div class="workItem">
-                                <div class="wi-t">
-                                    <img src="http://i.imgur.com/IvwhEbb.jpg?1" alt="" class="img-circle" >
+                        <div class="top-PF"> </div>
+                            <div class="workItem">                          
+                                <div class="wi-h">
+                                    <img src="http://i.imgur.com/IvwhEbb.jpg?1" alt="" class="circleProfile position-PF" >
                                 </div>
                                 <div class="wi-b">
                                     <h3>想交換技能</h3>
@@ -230,8 +231,11 @@
                             </div>
                         </div>
                         <div class="col-md-4">
+                         <div class="bg-design"></div>
                             <div class="workItem">
+                            
                                 <div class="wi-t">
+                               
                                     <img src="http://i.imgur.com/CfOaiq2.jpg" alt="">
                                 </div>
                                 <div class="wi-b">
@@ -287,6 +291,8 @@
                             </div>
                         </div>
                         <!-- /work list -->
+                       
+                        
                     </div>
                     <!-- /works -->
 
@@ -319,6 +325,20 @@
     <!--/footer-->
 
     <hr class="max none">
+<script>
+function viewuser(userid)
+{
+	$.colorbox({href:'view.php?idx='+userid, iframe: true,width:'70%',height:'100%'});
+}
+function edit(userid)
+{
+	$.colorbox({href:'edit.php?idx='+userid, iframe: true,width:'50%',height:'70%'});
+}
+function login()
+{
+    $.colorbox({href:'login.php', iframe: true,width:'50%',height:'50%'});
+}
+</script>
 
 </body>
 
